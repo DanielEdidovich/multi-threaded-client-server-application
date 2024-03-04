@@ -8,8 +8,8 @@ sudo apt install g++ make -y
 sudo mkdir -p /var/server_files && sudo touch /var/server_files/file_out.txt
 
 # Клонирование репозиториев сервера и клиента
-git clone https://github.com/your_username/server_repo.git /tmp/server
-git clone https://github.com/your_username/client_repo.git /tmp/client
+git clone https://github.com/DanielEdidovich/multi-threaded-server.git /tmp/server
+git clone https://github.com/DanielEdidovich/multi-threaded-client.git /tmp/client
 
 # Компиляция и установка сервера
 cd /tmp/server
