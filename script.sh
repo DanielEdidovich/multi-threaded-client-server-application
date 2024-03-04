@@ -13,7 +13,7 @@ git clone https://github.com/your_username/client_repo.git /tmp/client
 
 # Компиляция и установка сервера
 cd /tmp/server
-g++ -pthread lr2.cpp -o server
+g++ -pthread server.cpp -o server
 sudo cp server /usr/local/bin/
 sudo chmod +x /usr/local/bin/server
 
